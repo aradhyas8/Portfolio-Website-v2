@@ -1,0 +1,25 @@
+.about {
+  width: 50%;
+  justify-content: center;
+  margin-bottom: 10%;
+  border: 1px solid white;
+
+  .about-header {
+    margin-bottom: 5%;
+    font-size: 1.6rem;
+  }
+
+  .about-description {
+    text-align: center;
+  }
+}
+.row {
+  border: 1px solid white;
+}
+
+.skills {
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  justify-content: left;
+}

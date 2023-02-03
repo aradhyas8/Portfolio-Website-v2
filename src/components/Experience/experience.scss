@@ -1,0 +1,21 @@
+.vertical-tabs {
+    .nav-link {
+        background-color: transparent;
+        border-left: 1px solid white;
+        border-radius: 0;
+    }
+
+    .nav-link.active {
+        background-color: transparent;
+        border-left: 1px solid blue;
+        border-radius: 0;
+    }
+
+
+    .tab-content {
+        padding-left: 5%;
+        width: 50%;
+    }
+
+}
+
