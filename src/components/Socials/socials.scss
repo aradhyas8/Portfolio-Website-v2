@@ -1,0 +1,21 @@
+.socials {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    font-size: 1rem;
+    
+    a {
+        color: #b1b1b1;
+    }
+    &:after {
+        content: "";
+        display: inline-block;
+        width: 1px;
+        height: 20px;
+        
+        background-color: #b1b1b1;
+        vertical-align: middle;
+    }
+
+  
+}

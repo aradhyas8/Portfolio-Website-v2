@@ -1,33 +1,33 @@
 .contact {
-  align-items: center;
+  
   height: 100vh;
   text-align: center;
   margin-top: 10%;
 
   .contact-header h1 {
     margin-bottom: 10%;
-    font-size: 3rem;
+    font-size: 2rem;
     position: relative;
     width: fit-content;
   }
 
   .title h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #64ffda;
   }
 
   .get-touch p {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-family: Rubik, sans-serif;
   }
 
   .statement p {
     color: #65747b;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   button {
     margin-top: 2%;
-    font-size: 2rem;
+    
   }
 }

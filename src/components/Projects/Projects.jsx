@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="card">
-              <div className="card-body">
+              <div className="card-header">
                 <div className="icon mr-3">
                   <div className="folder">
                     <FiFolder />
@@ -31,14 +31,15 @@ const Projects = () => {
                     recognizing faces in real-time video and saving the data to
                     a .csv file with a timestamp.
                   </p>
-                  <p className="tools">Python, openCV</p>
+                  <div className="card-footer"><p className="tools">Python, openCV</p></div>
+                  
                 </div>
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <div className="card-body">
+              <div className="card-header">
                 <div className="icon mr-3">
                   <div className="folder">
                     <FiFolder />
@@ -61,7 +62,7 @@ const Projects = () => {
           </div>
           <div className="col-md-4">
             <div className="card">
-              <div className="card-body">
+              <div className="card-header">
                 <div className="icon mr-3">
                   <div className="folder">
                     <FiFolder />
@@ -78,6 +79,7 @@ const Projects = () => {
                     music playback, timekeeping, Wikipedia information,
                     joke-telling, and weather updates.
                   </p>
+                  
                   <p className="tools">Python</p>
                 </div>
               </div>

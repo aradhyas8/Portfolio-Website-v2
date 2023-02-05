@@ -3,7 +3,7 @@
 
   .about-header h1 {
     margin-bottom: 10%;
-    font-size: 3rem;
+    font-size: 2rem;
     position: relative;
     width: fit-content;
     
@@ -11,7 +11,7 @@
 
   .about-description {
     color: #b1b1b1;
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-align: left;
     width: 70%;
   }
@@ -19,7 +19,7 @@
 
 .skills {
   color: #b1b1b1;
-  font-size: 1.6rem;
+  font-size: 1rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   justify-content: left;
