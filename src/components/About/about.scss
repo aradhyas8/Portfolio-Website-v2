@@ -1,17 +1,31 @@
 .about {
   margin-top: 10%;
 
-  .about-header h1 {
-    margin-bottom: 10%;
-    font-size: 2rem;
-    position: relative;
-    width: fit-content;
-    
+  .about-header {
+    margin-bottom: 5%;
+
+    h1 {
+      color: white;
+      position: relative;
+      font-size: 2.5rem;
+
+      width: fit-content;
+    }
+
+    h1::after {
+      content: "";
+      position: absolute;
+      bottom: 25px;
+      left: 22rem;
+      transform: translateX(-50%);
+      border-top: 1px solid white;
+      width: 350px;
+    }
   }
 
   .about-description {
     color: #b1b1b1;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: left;
     width: 70%;
   }
@@ -19,7 +33,7 @@
 
 .skills {
   color: #b1b1b1;
-  font-size: 1rem;
+  font-size: 1.4rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   justify-content: left;
@@ -31,9 +45,18 @@ li {
 
 a {
   text-decoration: none;
-  
 }
 
-@media screen and (max-width:600px) {
- 
+@media screen and (max-width: 600px) {
+  .about {
+    text-align: left;
+
+    .about-description {
+      width: 100%;
+    }
+
+    .about-header h1::after {
+      display: none;
+    }
+  }
 }

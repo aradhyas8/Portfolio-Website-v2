@@ -1,164 +1,142 @@
 import React from "react";
 import "./projects.scss";
 import { FiFolder } from "react-icons/fi";
-import { AiOutlineGithub } from "react-icons/ai";
-import { RiShareForward2Line } from "react-icons/ri";
+import { FiGithub } from "react-icons/fi";
+import { RiShareCircleLine } from "react-icons/ri";
 
 const Projects = () => {
   return (
-    <div className="parent projects">
-      <div className="container">
+    <div className="container card-container">
       <div className="proj-header">
-          <h1>/Projects</h1>
+        <h1>/Projects</h1>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-header">
+            <div className="folder">
+              <FiFolder />
+            </div>
+            <div className="git-share">
+            <a href="https://github.com/aradhyas8/FaceRecognitionAttendaceProject">
+                <FiGithub />
+              </a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Face Track Attendance</h5>
+            <p class="card-text">
+              This program records facial attendance by detecting and
+              recognizing faces in real-time video and saving the data to a .csv
+              file with a timestamp.
+            </p>
+          </div>
+          <div class="card-footer">Python, openCV</div>
         </div>
-        <div className="row">
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-header">
-                <div className="icon mr-3">
-                  <div className="folder">
-                    <FiFolder />
-                  </div>
-                </div>
-                <div className="git-share">
-                  <AiOutlineGithub />
-                  <RiShareForward2Line />
-                </div>
-                <div className="content">
-                  <h5 className="card-title">Face Track Attendance</h5>
-                  <p className="card-text">
-                    This program records facial attendance by detecting and
-                    recognizing faces in real-time video and saving the data to
-                    a .csv file with a timestamp.
-                  </p>
-                  <div className="card-footer"><p className="tools">Python, openCV</p></div>
-                  
-                </div>
-              </div>
+        <div class="card">
+          <div class="card-header">
+            <div className="folder">
+              <FiFolder />
+            </div>
+            <div className="git-share">
+            <a href="https://github.com/aradhyas8/Sorting-Algorithmn-Visualizer">
+                <FiGithub />
+              </a>
+              <a href="https://aradhyas8.github.io/Sorting-Algorithmn-Visualizer/" target="_blank" rel="noopener noreferrer">
+                <RiShareCircleLine />
+              </a>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-header">
-                <div className="icon mr-3">
-                  <div className="folder">
-                    <FiFolder />
-                  </div>
-                </div>
-                <div className="git-share">
-                  <AiOutlineGithub />  
-                  <RiShareForward2Line />
-                </div>
-                <div className="content">
-                  <h5 className="card-title">Sorting Algorithm Visualizer</h5>
-                  <p className="card-text">
-                    A sorting visualizer displaying Bubble, Insertion, and
-                    Selection Sort algorithms with array visualization.
-                  </p>
-                  <p className="tools">Javascript, React</p>
-                </div>
-              </div>
+          <div class="card-body">
+            <h5 class="card-title">Sorting Algorithm Visualizer</h5>
+            <p class="card-text">
+              A sorting visualizer displaying Bubble, Insertion, and Selection
+              Sort algorithms with array visualization.
+            </p>
+          </div>
+          <div class="card-footer">Javascript, React.js</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div className="folder">
+              <FiFolder />
+            </div>
+            <div className="git-share">
+            <a href="https://github.com/aradhyas8/speech_assistant">
+                <FiGithub />
+              </a>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-header">
-                <div className="icon mr-3">
-                  <div className="folder">
-                    <FiFolder />
-                  </div>
-                </div>
-                <div className="git-share">
-                  <AiOutlineGithub />
-                  <RiShareForward2Line />
-                </div>
-                <div className="content">
-                  <h5 className="card-title">Talk-Smart</h5>
-                  <p className="card-text">
-                    A voice assistant with multiple functionalities including
-                    music playback, timekeeping, Wikipedia information,
-                    joke-telling, and weather updates.
-                  </p>
-                  
-                  <p className="tools">Python</p>
-                </div>
-              </div>
+          <div class="card-body">
+            <h5 class="card-title">Talk-Smart</h5>
+            <p class="card-text">
+              A voice assistant with multiple functionalities including music
+              playback, timekeeping, Wikipedia information, joke-telling, and
+              weather updates.
+            </p>
+          </div>
+          <div class="card-footer">Python</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div className="folder">
+              <FiFolder />
+            </div>
+            <div className="git-share">
+            <a href="https://github.com/aradhyas8/ForTheHorses">
+                <FiGithub />
+              </a>
             </div>
           </div>
-
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                <div className="icon mr-3">
-                  <div className="folder">
-                    <FiFolder />
-                  </div>
-                </div>
-                <div className="git-share">
-                  <AiOutlineGithub />
-                  <RiShareForward2Line />
-                </div>
-                <div className="content">
-                  <h5 className="card-title">For The Horses</h5>
-                  <p className="card-text">
-                    Animal rescue app that won first prize at YUHacks 2022 with
-                    search, dashboard, adopter matching and messaging features.
-                  </p>
-                  <p className="tools">Javascript,Node.js, React.js</p>
-                </div>
-              </div>
+          <div class="card-body">
+            <h5 class="card-title">For The Horses</h5>
+            <p class="card-text">
+              Animal rescue app that won first prize at YUHacks 2022 with
+              search, dashboard, adopter matching and messaging features.
+            </p>
+          </div>
+          <div class="card-footer">Javascript,Node.js, React.js</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div className="folder">
+              <FiFolder />
+            </div>
+            <div className="git-share">
+            <a href="https://github.com/aradhyas8/csHUB-LHD-Website">
+                <FiGithub />
+              </a>
+              <a href="https://cshublhd.tech/" target="_blank" rel="noopener noreferrer">
+                <RiShareCircleLine />
+              </a>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                <div className="icon mr-3">
-                  <div className="folder">
-                    <FiFolder />
-                  </div>
-                </div>
-                <div className="git-share">
-                  <AiOutlineGithub />
-                  <RiShareForward2Line />
-                </div>
-                <div className="content">
-                  <h5 className="card-title">Data Visualizer</h5>
-                  <p className="card-text">
-                    EECS 3311 project for York University in Fall 2022 analyzing
-                    World Bank API data in visual format.
-                  </p>
-                  <p className="tools">Java, REST APIs, Swing</p>
-                </div>
-              </div>
+          <div class="card-body">
+            <h5 class="card-title">CS HUB: Local Hack Day</h5>
+            <p class="card-text">
+              Designed and Developed the CS HUB: Local Hack Day 2023 Website.
+            </p>
+          </div>
+          <div class="card-footer">Javascript, Bootstrap, React.js</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div className="folder">
+              <FiFolder />
+            </div>
+            <div className="git-share">
+            <a href="https://github.com/aradhyas8/World-Bank-Analysis">
+                <FiGithub />
+              </a>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                <div className="icon mr-3">
-                  <div className="folder">
-                    <FiFolder />
-                  </div>
-                </div>
-                <div className="git-share">
-                  <AiOutlineGithub />
-                  <RiShareForward2Line />
-                </div>
-                <div className="content">
-                  <div className="card-title">
-                    <h5>CS HUB: LHD</h5>
-                  </div>
-                  <p className="card-text">
-                    Designed and Developed the CS HUB: Local Hack Day 2023
-                    Website.
-                  </p>
-                  <div className="tools">
-                    <p>Javascript, Bootstrap, React.js</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="card-body">
+            <h5 class="card-title">Data Visualizer</h5>
+            <p class="card-text">
+              EECS 3311 project for York University in Fall 2022 analyzing World
+              Bank API data in visual format.
+            </p>
           </div>
+          <div class="card-footer">Java, REST APIs, Swing</div>
         </div>
       </div>
     </div>

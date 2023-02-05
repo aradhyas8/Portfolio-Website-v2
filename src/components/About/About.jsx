@@ -3,11 +3,12 @@ import "./about.scss";
 
 export const About = () => {
   return (
-    <div className="parent">
+    
       <div className="container about">
-        <div className="about-header">
+        <div className="row"><div className="about-header">
           <h1>/About me</h1>
-        </div>
+        </div></div>
+        
         <div className="row about-description">
           <p>
             Hello, my name is Aradhya Singh. I have a passion for software
@@ -34,7 +35,7 @@ export const About = () => {
           <li>Node.js</li>
         </ul>
       </div>
-    </div>
+   
   );
 };
 export default About;

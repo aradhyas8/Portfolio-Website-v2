@@ -1,67 +1,71 @@
-.vertical-tabs {
-  margin-top: 10%;
-
-  .exp-header h1 {
-    margin-bottom: 10%;
-    font-size: 2rem;
-    position: relative;
-    width: fit-content;
-    
+@media (max-width: 767px) {
+  .nav-pills button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
   }
-
-  .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    width: 140px;
-    border-right: 2px solid #b1b1b1;
-    border-radius: 0;
-  }
-  
-  .nav-link.active {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    border-right: 2px solid #64ffda;
-    border-radius: 0;
-  }
-
-
-  .tab-content {
-    padding-left: 3%;
-  }
-
-
-  .role-title{
-   
-    width: fit-content;
-    font-size: 1.5rem;
-    font-family: Rubik, sans-serif;
-    font-weight: bold;
-  }
-
-  .role-time {
-   
-    width: fit-content;
-    font-size: 1rem;
-    color: #b1b1b1;
-  }
-
-  .role-description {
-    color: #b1b1b1;
-    
-    width: 70%;
-    font-size: 1rem;
-  }
-
-  .role-description li {
-    
-    margin-bottom: 5px;
-  }
-
 }
 
-@media (max-width: 767px) {
-  .vertical-tabs .nav-pills {
-    display: flex;
-    flex-direction: row;
+.exp-tabs {
+  font-size: 1.2rem;
+  margin-top: 10%;
+  .nav-pills button {
+    border-right: 2px solid white;
+    border-radius: 0;
+  }
+  .nav-pills button.active {
+    border-right: 2px solid #64ffda;
+    background-color: transparent;
+  }
+
+  .tab-content {
+    color: white;
+
+    .role-title {
+      a {
+        color: #64ffda;
+      }
+      width: fit-content;
+      font-size: 2rem;
+    }
+
+    .role-time {
+      color: #b1b1b1;
+      font-size: 1.5rem;
+
+      width: fit-content;
+    }
+
+    .role-description {
+      color: #b1b1b1;
+      font-size: 1.2rem;
+      max-width: 60%;
+    }
+  }
+
+  .exp-header h1 {
+    color: white;
+    position: relative;
+    font-size: 2.5rem;
+
+    width: fit-content;
+  }
+
+  .exp-header h1::after {
+    content: "";
+      position: absolute;
+      bottom: 25px;
+      left: 23rem;
+      transform: translateX(-50%);
+      border-top: 1px solid white;
+      width: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .exp-header h1::after {
+    display: none;
   }
 }

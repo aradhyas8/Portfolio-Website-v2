@@ -1,0 +1,81 @@
+.card-container {
+  margin-top: 10%;
+}
+
+.proj-header {
+  margin-bottom: 5%;
+}
+
+.proj-header h1 {
+  color: white;
+  position: relative;
+  font-size: 2.5rem;
+
+  width: fit-content;
+}
+
+.proj-header h1::after {
+  content: "";
+      position: absolute;
+      bottom: 25px;
+      left: 20rem;
+      transform: translateX(-50%);
+      border-top: 1px solid white;
+      width: 350px;
+}
+a {
+  color: #b1b1b1;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  .card-text {
+    color: #b1b1b1;
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-family: Hind Siliguri, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  margin: 0 -1rem;
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .folder {
+      color: #64ffda;
+      margin-right: 1rem;
+      font-size: 1.8rem;
+    }
+
+    .git-share {
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+  .card-footer {
+    font-family: Rubik;
+    text-transform: uppercase;
+    color: #a8b2d1;
+    font-size: 0.8rem;
+  }
+
+  .card {
+    color: white;
+    background-color: #112240;
+    width: 18rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .proj-header h1::after{
+    display: none;
+  }
+}

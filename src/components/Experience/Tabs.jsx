@@ -1,9 +1,9 @@
 import React from "react";
-import "./experience.scss";
+import "./tabs.scss";
 
-export const Experience = () => {
+export const Tabs = () => {
   return (
-    <div class="container exp-tabs">
+    <div class="container">
       <div className="exp-header">
           <h1>/Experience</h1>
         </div>
@@ -87,7 +87,7 @@ export const Experience = () => {
               tabindex="0"
             >
               <div className="role-title">
-                <p>Software Developer @ <a href="https://fibrainc.ca/">Fibra</a></p>
+                <p>Software Developer @ Fibra</p>
               </div>
               <div className="role-time">
                 <p>January 2023-Present</p>
@@ -118,7 +118,7 @@ export const Experience = () => {
               tabindex="0"
             >
               <div className="role-title">
-                <p>QA Analyst @ <a href="https://www.thescore.com/">theScore</a></p>
+                <p>QA Analyst @ the Score</p>
               </div>
               <div className="role-time">
                 <p>January 2023-Present</p>
@@ -137,7 +137,7 @@ export const Experience = () => {
               tabindex="0"
             >
               <div className="role-title">
-                <p>Intermediate Business Analyst @ <a href="https://www.cibc.com/en/personal-banking.html">CIBC</a></p>
+                <p>Intermediate Business Analyst @ CIBC</p>
               </div>
               <div className="role-time">
                 <p>January 2023-Present</p>
@@ -172,7 +172,7 @@ export const Experience = () => {
               tabindex="0"
             >
               <div className="role-title">
-                <p>Software Developer @ <a href="https://www.cshub.tech/">CS HUB</a></p>
+                <p>Software Developer @ CS HUB</p>
               </div>
               <div className="role-time">
                 <p>October 2022-Present</p>
@@ -208,7 +208,7 @@ export const Experience = () => {
               tabindex="0"
             >
               <div className="role-title">
-                <p>Student Mentor @ <a href="https://yorkinternational.yorku.ca/">York International</a></p>
+                <p>Student Mentor @ York International</p>
               </div>
               <div className="role-time">
                 <p>September 2022-Present</p>
@@ -235,4 +235,4 @@ export const Experience = () => {
   );
 };
 
-export default Experience;
+export default Tabs;
