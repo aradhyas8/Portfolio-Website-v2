@@ -42,8 +42,13 @@
   @media screen and (max-width:600px) {
     .landing-page{
       padding-left: 5%;
-    
+      
       text-align: center;
+      
+      .header-title h1 {
+
+        font-size: 2rem;
+      }
 
       .landing-description {
         max-width: 100%;
