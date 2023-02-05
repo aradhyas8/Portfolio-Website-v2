@@ -1,21 +1,60 @@
 .vertical-tabs {
-    .nav-link {
-        background-color: transparent;
-        border-left: 1px solid white;
-        border-radius: 0;
-    }
+  margin-top: 10%;
 
-    .nav-link.active {
-        background-color: transparent;
-        border-left: 1px solid blue;
-        border-radius: 0;
-    }
+  .exp-header h1 {
+    margin-bottom: 10%;
+    font-size: 3rem;
+    position: relative;
+    width: fit-content;
+    
+  }
+
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 140px;
+    border-right: 2px solid #b1b1b1;
+    border-radius: 0;
+  }
+  
+  .nav-link.active {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-right: 2px solid #64ffda;
+    border-radius: 0;
+  }
 
 
-    .tab-content {
-        padding-left: 5%;
-        width: 50%;
-    }
+  .tab-content {
+    padding-left: 3%;
+  }
+
+
+  .role-title{
+   
+    width: fit-content;
+    font-size: 2rem;
+    font-family: Rubik, sans-serif;
+    font-weight: bold;
+  }
+
+  .role-time {
+   
+    width: fit-content;
+    font-size: 1.5rem;
+    color: #b1b1b1;
+  }
+
+  .role-description {
+    color: #b1b1b1;
+    
+    width: 70%;
+    font-size: 1.6rem;
+  }
+
+  .role-description li {
+    
+    margin-bottom: 5px;
+  }
 
 }
-

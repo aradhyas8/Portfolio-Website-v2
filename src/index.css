@@ -1,22 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Outfit:wght@100&family=Rajdhani:wght@400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono:wght@300;400;500;600&family=Rubik:wght@400;500;600&family=Source+Code+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@100&family=Maven+Pro:wght@400;500&family=NTR&family=Outfit:wght@100&family=Rajdhani:wght@400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono:wght@300;400;500;600&family=Rubik:wght@400;500;600&family=Source+Code+Pro:wght@300;400&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 100%;
+}
 
 
 body{
-  font-family: Roboto Mono, sans-serif;
+
+  display: block;
+  font-family: NTR, sans-serif;
+
   margin: 0;
   padding: 0;
-  background: #042117;
-  height: 100vh;
-  width: 100vw;
+  background: #0a192f;
 }
 
 .parent {
   color: white;
-  height: 100vh;
-
-}
-
-.container {
 
 }

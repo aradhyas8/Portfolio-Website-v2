@@ -1,10 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@100&family=Maven+Pro:wght@400;500&family=NTR&family=Outfit:wght@100&family=Rajdhani:wght@400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono:wght@300;400;500;600&family=Rubik:wght@400;500;600&family=Source+Code+Pro:wght@300;400&display=swap');
+
 .landing-page{
-    margin-top: 20%;
+
+    margin-top: 10%;
     color: white;
 
-    
+  .header-title h1 {
 
-    .header-page {
-        width: 50%;
-    }
+    font-size: 7rem;
+  }
+
+  .header-two h2 {
+    font-family: Rubik;
+    font-size: 3rem;
+    color: #b1b1b1;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    
+  }
+
+
+  .landing-description{
+    max-width: 50%;
+    font-size: 1.6rem;
+    margin-bottom: 2%;
+    color: #b1b1b1;
+  }
+
+
+  button {
+    
+    font-size: 1.8rem;
+  }
+
+  }
+
+  
+  @media screen and (max-width:600px) {
+    .landing-page{
+      padding-left: 5%;
+    
+      text-align: center;
+
+      .landing-description {
+        max-width: 100%;
+      }
+}
 }

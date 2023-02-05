@@ -1,22 +1,41 @@
-.contact-father {
 
-    padding-bottom: 20%;
     
     
     .contact {
         text-align: center;
-        margin-top: 20%;
+        margin-top: 10%;
+
+        .contact-header h1 {
+            margin-bottom: 10%;
+            font-size: 3rem;
+            position: relative;
+            width: fit-content;
+            
+          }
+
+          .title h2 {
+            font-size: 1.5rem;
+            color: #64ffda;
+          }
 
 
-        .hello-button button {
-        
-            border: 2px solid white;
-            background: transparent;
-            color: white;
+          .get-touch p {
+            font-size: 3rem;
+            font-family: Rubik,sans-serif;
+          }
 
-        }
+
+
+          .statement p {
+            color: #65747b;
+            font-size: 2rem;
+          }
+
+          button {
+            
+            margin-top: 2%;
+            font-size: 2rem;
+          }
     }
 
     
-    
-}

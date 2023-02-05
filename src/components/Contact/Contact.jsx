@@ -5,6 +5,9 @@ export const Contact = () => {
   return (
     <div className="parent contact-father">
     <div className="container contact">
+    <div className="contact-header">
+          <h1>/Contact</h1>
+        </div>
       <div className="row">
         <div className="title">
           <h2>What's next?</h2>
@@ -12,7 +15,7 @@ export const Contact = () => {
       </div>
       <div className="row">
         <div className="get-touch">
-          <p>Get In Touch</p>
+          <p>Get in Touch</p>
         </div>
       </div>
       <div className="row">
@@ -22,7 +25,7 @@ export const Contact = () => {
       </div>
       <div className="row">
         <div className="hello-button">
-          <button>Say Hello.</button>
+          <button className="btn btn-outline-primary">Say Hello.</button>
         </div>
       </div>
     </div>

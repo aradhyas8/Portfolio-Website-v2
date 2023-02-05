@@ -5,15 +5,19 @@ export const About = () => {
   return (
     <div className="parent">
       <div className="container about">
-        <div className="about-header">/About me</div>
+        <div className="about-header">
+          <h1>/About me</h1>
+        </div>
         <div className="row about-description">
           <p>
-            My name is Aradhya Singh. I love building and automating things.
-            Working as a Software Engineer Intern at Fibra and QA Developer
-            Intern at theScore has allowed me to explore more technologies and
-            learn things. I have worked in the areas of backend and automation.
-            I have always been intrigued by AI and am learning to build things
-            around it.
+            Hello, my name is Aradhya Singh. I have a passion for software
+            development . I am currently a QA Analyst at{" "}
+            <a href="https://www.thescore.com/">theScore</a> and a Software
+            Developer at <a href="https://fibra.io/">Fibra</a>. In my free time,
+            I contribute as a backend developer at{" "}
+            <a href="https://cshub.ca/">CS HUB</a> at{" "}
+            <a href="https://www.yorku.ca/">York University</a>, where I am in
+            my third year of studies.
           </p>
         </div>
         <div className="row about-description ">

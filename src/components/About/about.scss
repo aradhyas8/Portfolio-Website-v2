@@ -1,25 +1,41 @@
 .about {
-  width: 50%;
-  justify-content: center;
-  margin-bottom: 10%;
-  border: 1px solid white;
+  margin-top: 10%;
 
-  .about-header {
-    margin-bottom: 5%;
-    font-size: 1.6rem;
+  .about-header h1 {
+    margin-bottom: 10%;
+    font-size: 3rem;
+    position: relative;
+    width: fit-content;
+    
   }
 
   .about-description {
-    text-align: center;
+    color: #b1b1b1;
+    font-size: 1.6rem;
+    text-align: left;
+    width: 70%;
   }
-}
-.row {
-  border: 1px solid white;
 }
 
 .skills {
-  border: 1px solid white;
+  color: #b1b1b1;
+  font-size: 1.6rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   justify-content: left;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+@media screen and (max-width:600px) {
+  .about {
+    padding-left: 15%;
+  }
 }

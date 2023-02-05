@@ -8,6 +8,9 @@ const Projects = () => {
   return (
     <div className="parent projects">
       <div className="container">
+      <div className="proj-header">
+          <h1>/Projects</h1>
+        </div>
         <div className="row">
           <div className="col-md-4">
             <div className="card">
