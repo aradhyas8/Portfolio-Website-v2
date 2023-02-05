@@ -3,11 +3,13 @@ import './contact.scss'
 
 export const Contact = () => {
   return (
+    <section id="contact">
     <div className="parent contact-father">
     <div className="container contact">
     <div className="contact-header">
           <h1>/Contact</h1>
         </div>
+        <div className="contact-description">
       <div className="row">
         <div className="title">
           <h2>What's next?</h2>
@@ -28,8 +30,10 @@ export const Contact = () => {
           <button className="btn btn-outline-primary">Say Hello.</button>
         </div>
       </div>
+      </div>
     </div>
     </div>
+    </section>
   );
 };
 

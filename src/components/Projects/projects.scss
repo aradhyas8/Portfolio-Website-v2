@@ -1,5 +1,6 @@
 .card-container {
-  margin-top: 10%;
+  padding-top: 5%;
+  margin-top: 5%;
 }
 
 .proj-header {
@@ -71,6 +72,11 @@ a {
     background-color: #112240;
     width: 18rem;
     margin: 1rem;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
   }
 }
 

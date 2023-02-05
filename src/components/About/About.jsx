@@ -3,7 +3,7 @@ import "./about.scss";
 
 export const About = () => {
   return (
-    
+        <section id="about">
       <div className="container about">
         <div className="row"><div className="about-header">
           <h1>/About me</h1>
@@ -35,6 +35,7 @@ export const About = () => {
           <li>Node.js</li>
         </ul>
       </div>
+      </section>
    
   );
 };

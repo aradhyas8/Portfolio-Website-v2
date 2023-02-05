@@ -1,71 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@100&family=Maven+Pro:wght@400;500&family=NTR&family=Outfit:wght@100&family=Rajdhani:wght@400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono:wght@300;400;500;600&family=Rubik:wght@400;500;600&family=Source+Code+Pro:wght@300;400&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@100&family=Maven+Pro:wght@400;500&family=NTR&family=Outfit:wght@100&family=Rajdhani:wght@400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono:wght@300;400;500;600&family=Rubik:wght@400;500;600&family=Source+Code+Pro:wght@300;400&display=swap");
 
 .landing-par {
- 
-
-.landing-page{
-
+  .landing-page {
     margin-top: 15%;
     color: white;
 
-  .header-title h1 {
+    .header-title h1 {
+      font-size: 5rem;
+    }
 
-    font-size: 5rem;
+    .header-two h2 {
+      font-family: Rubik;
+      font-size: 1.8rem;
+      color: #b1b1b1;
+      margin-bottom: 2%;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .landing-description {
+      max-width: 50%;
+      font-size: 1.3rem;
+      margin-bottom: 2%;
+      color: #b1b1b1;
+    }
+
+    .landing-description p {
+      word-spacing: 7px;
+    }
   }
 
-  .header-two h2 {
-    font-family: Rubik;
-    font-size: 1.8rem;
-    color: #b1b1b1;
-    margin-bottom: 2%;
-  }
+  .socials {
+    a {
+      color: #a8b2d1;
+      transition: transform 0.2s ease-in-out;
 
-  a {
-    text-decoration: none;
-    
-  }
+      &:hover {
+        color: #64ffda;
+        transform: translateY(-5px);
+      }
+    }
+  
+      
+    position: fixed;
+    right: 5rem;
+    bottom: 0;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    width: fit-content;
 
-
-  .landing-description{
-    
-    max-width: 50%;
-    font-size: 1.3rem;
-    margin-bottom: 2%;
-    color: #b1b1b1;
-  }
-
-  .landing-description p {
-
-    word-spacing: 7px;
-  }
-
-
-
+    a:last-child {
+      &:after {
+        content: "";
+        display: block;
+        height: 10rem;
+        width: 1px;
+        background-color: #fff;
+        margin-top: 1.5rem;
+        margin-left: 0.8rem;
+      }
+    }
   }
 }
 
-  
-  @media screen and (max-width:600px) {
-    .landing-par {
-      height: fit-content;
-    .landing-page{
+@media screen and (max-width: 600px) {
+  .landing-par {
+    height: fit-content;
+    .landing-page {
       padding-left: 5%;
-      
-      text-align: left;
-      
-      .header-title h1 {
 
-        font-size: 2rem;
+      text-align: center;
+
+      .header-title h1 {
+        font-size: 2.5rem;
       }
       .header-two h2 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        color: #007bff;
       }
 
       .landing-description {
-        
+        font-size: 1.2rem;
         max-width: 100%;
       }
 
@@ -73,6 +93,22 @@
         margin-top: 1.5rem;
         font-size: 1rem;
       }
-}
-}
+      
+    }
   }
+}
+
+@media screen and (max-width: 1050px) {
+  .landing-par{
+    .landing-page {
+      padding-top: 15%;
+      
+      
+    }
+    .socials {
+      display: none;
+    }
+  }
+
+  }
+  

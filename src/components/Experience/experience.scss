@@ -1,15 +1,8 @@
-@media (max-width: 767px) {
-  .nav-pills button {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0.5rem;
-    font-size: 0.8rem;
-  }
-}
+
 
 .exp-tabs {
   font-size: 1.2rem;
+  padding-top: 10%;
   margin-top: 10%;
   .nav-pills button {
     border-right: 2px solid white;
@@ -65,7 +58,20 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .exp-tabs {
+    .nav-pills button {
+      text-align: center;
+      border: none;
+    }
+    .nav-pills button.active {
+      border: none;
+      background-color: #007bff;
+      border-radius: 0.2rem;
+    }
+  }
   .exp-header h1::after {
     display: none;
   }
 }
+

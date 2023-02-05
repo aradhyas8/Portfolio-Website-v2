@@ -6,14 +6,14 @@
 }
 
 html {
-  height: 100vh;
+  
   max-width: 100%;
   
 }
 
 body {
   line-height: 1.7;
-  min-height: 100%;
+
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -36,6 +36,5 @@ body {
 }
 
 .parent {
-
   color: white;
 }

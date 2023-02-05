@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect/dist/core";
 import "./header.scss";
+import Socials from '../Socials/Socials'
 
 export const Header = () => {
   const headingRef = useRef(null);
@@ -39,6 +40,8 @@ export const Header = () => {
           <div className="resume-btn">
             <button class="btn btn-outline-primary btn-lg">Resume</button>
           </div>
+          <div className="socials"><Socials /></div>
+          
         </div>
       </div>
     </div>

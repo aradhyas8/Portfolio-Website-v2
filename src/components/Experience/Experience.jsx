@@ -3,6 +3,7 @@ import "./experience.scss";
 
 export const Experience = () => {
   return (
+    <section id="experience">
     <div class="container exp-tabs">
       <div className="exp-header">
           <h1>/Experience</h1>
@@ -232,6 +233,7 @@ export const Experience = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

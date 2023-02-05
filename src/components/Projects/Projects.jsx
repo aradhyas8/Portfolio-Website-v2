@@ -6,6 +6,7 @@ import { RiShareCircleLine } from "react-icons/ri";
 
 const Projects = () => {
   return (
+    <section id="projects">
     <div className="container card-container">
       <div className="proj-header">
         <h1>/Projects</h1>
@@ -140,6 +141,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
